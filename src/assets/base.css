@@ -1,0 +1,38 @@
+:root {
+  --font-title: 'Playfair Display', serif;
+  --font-default: 'DM Sans', sans-serif;
+
+  --color-primary: #000;
+  --color-secondary: #fff;
+  --color-text: #444;
+  --color-error: #dc3545;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+html {
+  font-size: 10px;
+  cursor: default;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-secondary);
+  line-height: 1.6;
+  font-family: var(--font-default);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
