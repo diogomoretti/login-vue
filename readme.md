@@ -1,44 +1,49 @@
 # login-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Simple authentication project using Vue 3, Vite, and TypeScript.
 
-## Recommended IDE Setup
+## Technologies Used
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **[Vue 3](https://vuejs.org/):** Progressive framework for building user interfaces.
+- **[Vite](https://vitejs.dev/):** Fast build tool for modern frontend projects.
+- **[TypeScript](https://www.typescriptlang.org/):** JavaScript superset that adds static typing.
+- **[Pinia](https://pinia.vuejs.org/):** State management library for Vue.
+- **[Vue Router](https://router.vuejs.org/):** Routing management for Vue applications.
+- **[Vitest](https://vitest.dev/):** Unit testing framework for Vite projects.
+- **[ESLint](https://eslint.org/):** Linting tool to maintain code quality.
+- **[pnpm](https://pnpm.io/):** Fast and efficient package manager.
 
-## Type Support for `.vue` Imports in TS
+## How to Run the Project
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+### 1. Install dependencies
 
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### 2. Start the development server
 
 ```sh
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Access the project at `http://localhost:5173` (or the port shown in your terminal).
+
+### 3. Build for production
 
 ```sh
 pnpm build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+The optimized files will be in the `dist/` folder.
+
+### 4. Run unit tests
 
 ```sh
 pnpm test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### 5. Lint the code
 
 ```sh
 pnpm lint
