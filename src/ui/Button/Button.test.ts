@@ -4,7 +4,7 @@ import Button from './Button.vue'
 
 describe('Button', () => {
   it('should render a button', () => {
-    const wrapper = mount(Button)
+    const wrapper = mount(Button, { props: { type: 'button' } })
     expect(wrapper.html()).toContain('button')
   })
 
