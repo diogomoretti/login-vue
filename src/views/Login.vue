@@ -34,8 +34,8 @@ const handleLogin = async () => {
     errorMessage.value = 'Login failed. Please check your credentials.'
     form.value.username = ''
     form.value.password = ''
+    isLoading.value = false
   }
-  isLoading.value = false
 }
 </script>
 
